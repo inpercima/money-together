@@ -12,7 +12,7 @@
       },
       "notFound": {
         "enabled": false,
-        "name": "not-found"
+        "name": ""
       },
       "routing": true
     },
@@ -21,8 +21,8 @@
         "name": "Marcel Jänicke",
         "email": "inpercima@gmail.com"
       }],
-      "homepage": "https://github.com/inpercima/money-together",
-      "repository": "https://github.com/inpercima/money-together"
+      "homepage": "https://github.com/inpercima/money-together/",
+      "repository": "https://github.com/inpercima/money-together/"
     },
     "prefix": "mt",
     "theme": "indigo-pink",

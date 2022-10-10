@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>money-together</artifactId>
-  <groupId>net.inpercima.money_together</groupId>
+  <groupId>net.inpercima</groupId>
   <description>Manage recurring expenses together.</description>
   <name>Money Together</name>
   <packaging>jar</packaging>
