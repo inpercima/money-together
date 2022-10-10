@@ -1,0 +1,54 @@
+{
+  "client": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "modules": {
+      "enabled": true,
+      "features": {
+        "defaultRoute": "dashboard",
+        "name": "features"
+      },
+      "notFound": {
+        "enabled": false,
+        "name": "not-found"
+      },
+      "routing": true
+    },
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/money-together",
+      "repository": "https://github.com/inpercima/money-together"
+    },
+    "prefix": "mt",
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": true
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "Manage recurring expenses together.",
+    "modRewriteIndex": false,
+    "name": "money-together",
+    "title": "Money Together",
+    "useDocker": true,
+    "useMITLicense": true,
+    "useMock": false,
+    "useSecurity": false
+  },
+  "server": {
+    "backend": "java",
+    "javaKt": {
+      "management": "maven",
+      "packagePath": "net.inpercima.money_together"
+    },
+    "php": {
+      "modRewritePhpExtension": false,
+      "serverAsApi": false
+    }
+  }
+}
