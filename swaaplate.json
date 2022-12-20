@@ -1,5 +1,16 @@
 {
-  "client": {
+  "backend": {
+    "language": "java",
+    "javaKt": {
+      "management": "maven",
+      "packagePath": "net.inpercima.money_together"
+    },
+    "php": {
+      "modRewritePhpExtension": false,
+      "runAsApi": false
+    }
+  },
+  "frontend": {
     "buildDir": "dist",
     "ghUser": "inpercima",
     "installDependencies": true,
@@ -39,16 +50,5 @@
     "useMITLicense": true,
     "useMock": false,
     "useSecurity": false
-  },
-  "server": {
-    "backend": "java",
-    "javaKt": {
-      "management": "maven",
-      "packagePath": "net.inpercima.money_together"
-    },
-    "php": {
-      "modRewritePhpExtension": false,
-      "serverAsApi": false
-    }
   }
 }

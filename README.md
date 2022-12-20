@@ -4,13 +4,13 @@
 
 Manage recurring expenses together.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.8-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.0.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 14.2.5` or higher
+* `@angular/cli 15.0.3` or higher
 
 ### Docker
 
@@ -23,7 +23,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Node, npm or yarn
 
-* `node 16.17.0` or higher in combination with
+* `node 18.10.0` or higher in combination with
   * `npm 8.19.2` or higher or
   * `yarn 1.22.19` or higher, used in this repository
 
@@ -31,7 +31,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ```bash
 # clone project
-git clone https://github.com/inpercima/money-together
+git clone https://github.com/inpercima/money-together/
 cd money-together
 ```
 
